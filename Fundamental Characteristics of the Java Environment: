@@ -1,0 +1,51 @@
+Intermediate Code Execution System: In languages like C and C++, the executable files produced are system-specific and meaningful at the system level. For example, an executable file compiled and linked for a Windows operating system cannot be run directly on a Linux distribution.
+
+Java Bytecode: When a Java program is compiled, the output is not specific to any particular environment or system. This is generally referred to as intermediate code, and in Java, it is called "bytecode." This bytecode can be executed on any system, but how does it work? In fact, bytecode does not run directly on the system. Instead, a program that translates bytecode into machine code operates. This translation process is known as Just-In-Time Compilation (JIT Compilation).
+
+Key Concepts in Development and Execution:
+
+* JVM (Java Virtual Machine): Compiles bytecode (JIT) into system-specific code, generally machine code. It represents an abstract concept of how bytecode will be interpreted.
+
+* JRE (Java Runtime Environment): A package that contains the tools needed to run a Java application.
+
+* JDK (Java Development Kit): A package containing tools for developing applications in Java. It includes development tools as well as runtime tools (JRE) necessary for development.
+
+Commercial Use Changes: Starting with Java 11, there have been changes regarding commercial use. In summary, development tools in Java are free, but a fee is required for commercial use. However, runtime environments used during development are free. Additionally, there is a free package known as OPEN JRE.
+
+The most significant advantage of the intermediate code execution system is the ability of developed applications to generally run independently of the system. This concept is known as WORA (Write Once, Run Anywhere) in the Java world. Here, the emphasis is on program portability rather than code portability. Although there is some performance loss in the intermediate code execution system, this loss is not significant for Java's targeted products and can be considered negligible.
+
+Extensive Class Library: Java SE offers a broad class library with many ready-made classes for database operations, file operations, web programming, and more.
+
+Rapid Application Development: Java provides an environment for rapid application development.
+
+Secure Execution Environment: The likelihood of a Java application causing harm to the system is very low.
+
+Classification of Programming Languages:
+
+Classification by Level: The level of a programming language is a measure of its proximity to human perception. The closer a programming language is to human perception, the higher its level (high-level). Conversely, the closer it is to machine-level, the lower its level (low-level). High-level languages are generally easier to learn and faster for application development. The lowest level language is machine code.
+
+Classification by Programming Model: The general model or paradigm used to write a program is very important. Some languages do not have the concept of classes; programs are written by having various subprograms call each other. This technique is known as the "procedural model." Some programming languages have classes, and this model, which uses classes and other related concepts, is known as the "object-oriented model." In some languages, writing a program is akin to writing mathematical formulas. This model is known as the "functional model." Some languages can use multiple models. Such languages are referred to as "multi-paradigm" languages. Supporting multiple models does not necessarily mean supporting every feature of each model.
+
+Classification by Application Areas: Classification based on the areas where languages are used. Some languages can be used in multiple domains. General-purpose languages, scientific and engineering languages, artificial intelligence languages, database languages, etc., can be considered in this context.
+
+Java is a high-level, general-purpose language that can be used in scientific and engineering fields, artificial intelligence, and database operations. It generally follows the object-oriented model and, starting with Java 8, supports functional programming to some extent.
+
+Basic Concepts:
+
+Translators, Compilers, and Interpreters: Software that translates programs written in one programming language into an equivalent program in another language is called a "translator." In translators, there are concepts of source language and target language. If the source language is high-level and the target language is low-level, the translator is called a "compiler." Some languages work by interpreting code directly without generating machine code. Programs that run code written in such languages are called "interpreters." Some programming languages can work with both compilers and interpreters. The process of JVM converting bytecode to machine code is also a form of compilation. Until Java 11, Java was a language that could only work with a compiler. Since Java 11, the "java" program can also interpret Java code as an "interpreter," although this process ultimately results in compilation for production.
+Operating Systems:
+
+An Operating System (OS) is software that manages machine hardware and serves as an intermediary between the computer and the user. An operating system has many functions, such as running programs, organizing files on disk, and managing various devices. Generally, operating systems are categorized into two groups: Desktop Operating Systems and Mobile Operating Systems.
+Open Source Software, Free Software, and Proprietary Software:
+
+Open Source Software and Free Software share some common characteristics:
+
+No special license is required to use it.
+Source code cannot be claimed as proprietary.
+Source code cannot be closed off once modified.
+It can be duplicated and used without permission.
+Proprietary Software is the opposite of these characteristics. There are no trial or demo versions in proprietary software.
+
+
+
+
